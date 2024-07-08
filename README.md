@@ -58,5 +58,5 @@ This repository contains a Node.js application with Prometheus metrics integrati
    
 3. **Start Prometheus:**
    ```bash
-   ./prometheus --config.file=prometheus.yml
+   ./prometheus --config.file=prometheus.yaml
    ``` 
