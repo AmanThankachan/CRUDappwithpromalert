@@ -6,3 +6,11 @@ scrape_configs:
   - job_name: 'nodejs_app'
     static_configs:
       - targets: ['localhost:3000'] # Assuming your Node.js app runs on localhost:3000
+
+rule_files:
+  - 'alert-rules.yaml'
+
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets: []
