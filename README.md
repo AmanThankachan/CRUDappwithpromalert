@@ -11,11 +11,13 @@ This repository contains a Node.js application with Prometheus metrics integrati
 
 ## Installation
 
-1. **Clone this repository:**
+1. **Clone this repository and make sure node is installed:**
 
    ```bash
    git clone https://github.com/AmanThankachan/CRUDappwithpromalert.git
    cd CRUDappwithpromalert
+   sudo apt update
+   sudo apt install -y nodejs npm
    ```
 2. **Install Dependencies:**
    ```bash
